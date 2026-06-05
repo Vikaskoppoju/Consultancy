@@ -38,28 +38,150 @@
   <!-- ========== HERO ========== -->
   <section class="hero" id="home">
     <canvas id="heroCanvas"></canvas>
-    <div class="hero-content">
-      <div class="hero-badge"><i class="fas fa-star"></i> Trusted by 5000+ Candidates</div>
-      <h1 class="hero-title">
-        Launch Your <span class="gradient-text">Dream Career</span><br/>With Expert Guidance
-      </h1>
-      <p class="hero-subtitle">
-        Connecting talented professionals & students with top companies across India.
-        Jobs, internships, and career growth — all under one roof.
-      </p>
-      <div class="hero-buttons">
-        <a href="#jobs" class="btn btn-primary"><i class="fas fa-search"></i> Explore Jobs</a>
-        <a href="#internships" class="btn btn-outline"><i class="fas fa-graduation-cap"></i> Find Internships</a>
+    <div class="hero-inner container">
+
+      <!-- LEFT: Text -->
+      <div class="hero-content">
+        <div class="hero-badge"><i class="fas fa-star"></i> Trusted by 5000+ Candidates</div>
+        <h1 class="hero-title">
+          Launch Your<br/><span class="gradient-text">Dream Career</span><br/>With Expert Guidance
+        </h1>
+        <p class="hero-subtitle">
+          Connecting talented professionals &amp; students with top companies across India.
+          Jobs, internships, and career growth — all under one roof.
+        </p>
+        <div class="hero-buttons">
+          <a href="#jobs" class="btn btn-primary"><i class="fas fa-search"></i> Explore Jobs</a>
+          <a href="#internships" class="btn btn-outline"><i class="fas fa-graduation-cap"></i> Find Internships</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><span class="stat-num" data-target="5000">0</span><span>+</span><p>Placements</p></div>
+          <div class="stat-divider"></div>
+          <div class="stat"><span class="stat-num" data-target="200">0</span><span>+</span><p>Partner Companies</p></div>
+          <div class="stat-divider"></div>
+          <div class="stat"><span class="stat-num" data-target="98">0</span><span>%</span><p>Success Rate</p></div>
+        </div>
       </div>
-      <div class="hero-stats">
-        <div class="stat"><span class="stat-num" data-target="5000">0</span><span>+</span><p>Placements</p></div>
-        <div class="stat-divider"></div>
-        <div class="stat"><span class="stat-num" data-target="200">0</span><span>+</span><p>Partner Companies</p></div>
-        <div class="stat-divider"></div>
-        <div class="stat"><span class="stat-num" data-target="98">0</span><span>%</span><p>Success Rate</p></div>
+
+      <!-- RIGHT: Illustration -->
+      <div class="hero-visual">
+
+        <!-- Floating info cards -->
+        <div class="hv-card hv-card-1">
+          <div class="hvc-icon" style="background:#ede9fe;color:#6C63FF"><i class="fas fa-briefcase"></i></div>
+          <div>
+            <strong>New Job Posted</strong>
+            <span>Full Stack Developer · ₹14 LPA</span>
+          </div>
+        </div>
+        <div class="hv-card hv-card-2">
+          <div class="hvc-icon" style="background:#fce7f3;color:#FF6B6B"><i class="fas fa-trophy"></i></div>
+          <div>
+            <strong>Offer Accepted!</strong>
+            <span>Priya N. placed at CapGrow</span>
+          </div>
+        </div>
+        <div class="hv-card hv-card-3">
+          <div class="hvc-icon" style="background:#d1fae5;color:#059669"><i class="fas fa-graduation-cap"></i></div>
+          <div>
+            <strong>Internship Match</strong>
+            <span>UI/UX Design · ₹10k/mo</span>
+          </div>
+        </div>
+
+        <!-- Central SVG illustration -->
+        <div class="hero-svg-wrap">
+          <svg viewBox="0 0 480 480" fill="none" xmlns="http://www.w3.org/2000/svg" class="hero-svg" aria-hidden="true">
+            <!-- Background circle -->
+            <circle cx="240" cy="240" r="210" fill="url(#bgGrad)" opacity="0.18"/>
+            <circle cx="240" cy="240" r="165" fill="url(#bgGrad2)" opacity="0.12"/>
+
+            <!-- Desk surface -->
+            <rect x="80" y="310" width="320" height="16" rx="8" fill="#c4b5fd" opacity="0.5"/>
+
+            <!-- Laptop body -->
+            <rect x="130" y="210" width="220" height="140" rx="14" fill="#6C63FF"/>
+            <rect x="138" y="218" width="204" height="124" rx="10" fill="#1a1a2e"/>
+            <!-- Screen content lines -->
+            <rect x="152" y="232" width="100" height="8" rx="4" fill="#a78bfa" opacity="0.8"/>
+            <rect x="152" y="248" width="140" height="6" rx="3" fill="#6C63FF" opacity="0.6"/>
+            <rect x="152" y="262" width="120" height="6" rx="3" fill="#4ECDC4" opacity="0.6"/>
+            <rect x="152" y="276" width="160" height="6" rx="3" fill="#6C63FF" opacity="0.4"/>
+            <rect x="152" y="292" width="90"  height="6" rx="3" fill="#FF6B6B" opacity="0.5"/>
+            <!-- Screen glow -->
+            <rect x="152" y="310" width="176" height="26" rx="6" fill="#6C63FF" opacity="0.25"/>
+            <rect x="160" y="315" width="80"  height="12" rx="4" fill="#a78bfa" opacity="0.7"/>
+            <!-- Laptop base -->
+            <rect x="110" y="350" width="260" height="12" rx="6" fill="#5a52e0"/>
+            <rect x="90"  y="360" width="300" height="8"  rx="4" fill="#4a42c0"/>
+
+            <!-- Person sitting -->
+            <!-- Chair -->
+            <rect x="195" y="355" width="90"  height="10" rx="5" fill="#c4b5fd"/>
+            <rect x="225" y="365" width="30"  height="40" rx="4" fill="#c4b5fd"/>
+            <!-- Body -->
+            <ellipse cx="240" cy="330" rx="28" ry="34" fill="#FFD93D"/>
+            <!-- Head -->
+            <circle cx="240" cy="282" r="28" fill="#FFD93D"/>
+            <!-- Hair -->
+            <ellipse cx="240" cy="263" rx="28" ry="12" fill="#1a1a2e"/>
+            <rect x="212" y="263" width="56" height="10" rx="5" fill="#1a1a2e"/>
+            <!-- Face details -->
+            <circle cx="231" cy="282" r="3.5" fill="#1a1a2e"/>
+            <circle cx="249" cy="282" r="3.5" fill="#1a1a2e"/>
+            <path d="M233 292 Q240 298 247 292" stroke="#1a1a2e" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+            <!-- Arms -->
+            <path d="M212 320 Q185 330 172 340" stroke="#FFD93D" stroke-width="16" stroke-linecap="round" fill="none"/>
+            <path d="M268 320 Q295 330 308 340" stroke="#FFD93D" stroke-width="16" stroke-linecap="round" fill="none"/>
+            <!-- Shirt collar -->
+            <path d="M220 310 L240 325 L260 310" stroke="#6C63FF" stroke-width="3" fill="none" stroke-linejoin="round"/>
+
+            <!-- Decorative elements -->
+            <!-- Stars -->
+            <g opacity="0.7">
+              <polygon points="60,100 65,115 80,115 68,124 73,139 60,130 47,139 52,124 40,115 55,115" fill="#FFD93D" transform="scale(0.6) translate(50,80)"/>
+              <polygon points="420,60 424,72 436,72 426,79 430,91 420,84 410,91 414,79 404,72 416,72" fill="#FF6B6B" transform="scale(0.5) translate(380,60)"/>
+              <polygon points="400,320 404,332 416,332 406,339 410,351 400,344 390,351 394,339 384,332 396,332" fill="#4ECDC4" transform="scale(0.55) translate(320,260)"/>
+            </g>
+
+            <!-- Floating icons -->
+            <!-- Briefcase icon circle -->
+            <circle cx="78" cy="200" r="26" fill="white" filter="url(#shadow1)"/>
+            <text x="78" y="207" text-anchor="middle" font-size="20" fill="#6C63FF">💼</text>
+
+            <!-- Chart icon circle -->
+            <circle cx="402" cy="170" r="26" fill="white" filter="url(#shadow1)"/>
+            <text x="402" y="177" text-anchor="middle" font-size="20" fill="#4ECDC4">📈</text>
+
+            <!-- Certificate icon circle -->
+            <circle cx="82" cy="370" r="22" fill="white" filter="url(#shadow1)"/>
+            <text x="82" y="377" text-anchor="middle" font-size="17" fill="#FF6B6B">🎓</text>
+
+            <!-- Dotted ring -->
+            <circle cx="240" cy="240" r="190" stroke="#6C63FF" stroke-width="1.5" stroke-dasharray="8 10" opacity="0.2"/>
+
+            <defs>
+              <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="#6C63FF"/>
+                <stop offset="100%" stop-color="#a78bfa"/>
+              </radialGradient>
+              <radialGradient id="bgGrad2" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="#FF6B6B"/>
+                <stop offset="100%" stop-color="#fce7f3"/>
+              </radialGradient>
+              <filter id="shadow1" x="-30%" y="-30%" width="160%" height="160%">
+                <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#6C63FF" flood-opacity="0.2"/>
+              </filter>
+            </defs>
+          </svg>
+        </div>
+
+        <!-- Decorative blobs behind SVG -->
+        <div class="hv-blob hv-blob-1"></div>
+        <div class="hv-blob hv-blob-2"></div>
       </div>
-    </div>
-    <div class="hero-3d" id="hero3d"></div>
+
+    </div><!-- /hero-inner -->
     <div class="hero-scroll"><i class="fas fa-chevron-down"></i></div>
   </section>
 
